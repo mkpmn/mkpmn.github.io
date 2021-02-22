@@ -1,8 +1,8 @@
 <template>
   <div id="topBar">
-  <b-navbar type="dark" class="mkpNav">
+  <b-navbar type="dark" class="mkpNav" fixed="top">
     <a href="" @click="$router.push('/')">
-      <img src="../assets/MKPUSA_logo_hor.png" alt="small logo" id="leftLogo" class="navImages"/>
+      <img src="../assets/MKPMN_logo_hor.png" alt="small logo" id="leftLogo" class="navImages"/>
     </a>
     <LeftMenu/>
   </b-navbar>
@@ -19,8 +19,7 @@ export default {
 
 <style scoped>
 .mkpNav {
-  /*width:100vw;*/
-  height:2vh;
+  height:9vh;
   background-color: #e7f5f5;
 }
 
@@ -32,6 +31,6 @@ export default {
 }
 
 #topBar {
-  margin-bottom: 2%;
+  margin-bottom: 8vh;
 }
 </style>
