@@ -6,7 +6,7 @@
       </template>
 
       <b-dropdown-item href="#mnMission">About The MN MKP Community</b-dropdown-item>
-      <b-dropdown-item>MN Community Calendar</b-dropdown-item>
+      <b-dropdown-item href="#" @click="$router.push('/calendar')">MN Community Calendar</b-dropdown-item>
       <b-dropdown-item href="#mnRequestForm">Request a conversation</b-dropdown-item>
     </b-nav-item-dropdown>
   </b-navbar-nav>
@@ -14,7 +14,7 @@
 
 <script>
 export default {
-name: "LeftMenu"
+  name: "LeftMenu"
 }
 </script>
 
