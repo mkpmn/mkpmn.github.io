@@ -15,20 +15,18 @@
       </div>
     </div>
     <div class="parallax-4 parallax-all" id="mnRequestForm">
-      <b-form>
-        sign up form here
-        <b-checkbox aria-label="dummy checkbox">Do something?</b-checkbox>
-      </b-form>
+      <ContactRequestForm/>
     </div>
   </div>
 </template>
 
 <script>
 import TopBar from "@/components/TopBar"
+import ContactRequestForm from "@/components/ContactRequestForm"
 
 export default {
 name: "Home",
-  components: {TopBar}
+  components: {ContactRequestForm, TopBar}
 }
 </script>
 
